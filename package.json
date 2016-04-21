@@ -5,10 +5,19 @@
   "description": "The website of Jason Wilson @scurker",
   "private": true,
   "devDependencies": {
-    "grunt-contrib-watch": "^0.6.1"
+    "glob": "^7.0.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "handlebars": "^3.0.3",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "minimatch": "^3.0.0",
+    "moment": "^2.13.0"
   },
   "dependencies": {
-    "grunt": "~0.4.0",
     "grunt-autoprefixer": "^1.0.1",
     "grunt-contrib-cssmin": "~0.6.0",
     "grunt-contrib-htmlmin": "^0.4.0",
@@ -17,9 +26,7 @@
     "grunt-shell": "^1.1.1",
     "handlebars": "^3.0.3",
     "matchdep": "^0.3.0",
-    "moment": "^2.8.4",
-    "typogr": "^0.6.4",
-    "underscore": "^1.7.0"
+    "typogr": "^0.6.4"
   },
   "repository": {
     "type": "git",
